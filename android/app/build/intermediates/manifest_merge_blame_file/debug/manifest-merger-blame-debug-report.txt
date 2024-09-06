@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.goongexamplemap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:3:5-79
+12-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:5:5-67
+14-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/macos/.gradle/caches/transforms-3/72b9f85a3fc9d4de5fe40a2117541e94/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/macos/.gradle/caches/transforms-3/72b9f85a3fc9d4de5fe40a2117541e94/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16
+17    <uses-feature
+17-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:7:5-9:35
+18        android:glEsVersion="0x00020000"
+18-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:8:9-41
+19        android:required="true" />
+19-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:9:9-32
+20    <uses-feature
+20-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:10:5-12:36
+21        android:name="android.hardware.wifi"
+21-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:11:9-45
+22        android:required="false" />
+22-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:12:9-33
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:15:5-79
+24-->[org.maplibre.gl:android-sdk:10.2.0] /Users/macos/.gradle/caches/transforms-3/9aaac46d3c05b8a671818cadb8ef5001/transformed/jetified-android-sdk-10.2.0/AndroidManifest.xml:15:22-76
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/transforms-3/ef1f3a8b680de397627bd1ae19bf3fa0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.goongexamplemap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/transforms-3/ef1f3a8b680de397627bd1ae19bf3fa0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/transforms-3/ef1f3a8b680de397627bd1ae19bf3fa0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.goongexamplemap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/transforms-3/ef1f3a8b680de397627bd1ae19bf3fa0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/transforms-3/ef1f3a8b680de397627bd1ae19bf3fa0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:7:5-26:19
+33        android:name="com.goongexamplemap.MainApplication"
+33-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:8:7-38
+34        android:allowBackup="false"
+34-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:12:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/transforms-3/ef1f3a8b680de397627bd1ae19bf3fa0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:10:7-41
+38        android:label="@string/app_name"
+38-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:9:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:11:7-52
+40        android:theme="@style/AppTheme"
+40-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:13:7-38
+41        android:usesCleartextTraffic="true" >
+41-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/debug/AndroidManifest.xml:8:9-44
+42        <activity
+42-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/debug/AndroidManifest.xml:11:9-111
+43            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+43-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/debug/AndroidManifest.xml:11:19-83
+44            android:exported="false" />
+44-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/debug/AndroidManifest.xml:11:84-108
+45        <activity
+45-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:14:7-25:18
+46            android:name="com.goongexamplemap.MainActivity"
+46-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:15:9-37
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+47-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:17:9-118
+48            android:exported="true"
+48-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:20:9-32
+49            android:label="@string/app_name"
+49-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:16:9-41
+50            android:launchMode="singleTask"
+50-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:18:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:19:9-51
+52            <intent-filter>
+52-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:21:9-24:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:22:13-65
+53-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:22:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:23:13-73
+55-->/Users/macos/Documents/SampleGoong/goong-sample/goong-sample-reactnative-maplibre/android/app/src/main/AndroidManifest.xml:23:23-70
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.goongexamplemap.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/transforms-3/3080de924f105a35db660bdb9f0ec6ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macos/.gradle/caches/transforms-3/fd9d037d474307eed71ad05365c70128/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macos/.gradle/caches/transforms-3/fd9d037d474307eed71ad05365c70128/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macos/.gradle/caches/transforms-3/fd9d037d474307eed71ad05365c70128/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
